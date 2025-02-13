@@ -18,5 +18,79 @@
     </nav>
 
     <h1>More Forms</h1>
+
+    <form action="moreforms.html" method="get">
+      <div>
+        <input
+          type="checkbox"
+          name="soulContract"
+          id="soulContract"
+          value="Signed"
+        />
+        <label for="soulContract">Sign away your Soul</label>
+      </div>
+      <!-- click buttons thing -->
+      <div>
+        <input
+          type="radio"
+          name="lengthContract"
+          id="lengthContract1"
+          value="1"
+        />
+        <label for="lengthContract1">1 year</label>
+
+        <input
+          type="radio"
+          name="lengthContract"
+          id="lengthContract2"
+          value="2"
+        />
+        <label for="lengthContract1">2 year</label>
+
+        <input
+          type="radio"
+          name="lengthContract"
+          id="lengthContract50"
+          checked
+          value="50"
+        />
+        <label for="lengthContract1">50 years</label>
+        <!-- click buttons thing -->
+      </div>
+
+      <fieldset>
+        <legend>Personal Info:</legend>
+
+        <div>
+          <!-- drop down menu -->
+          <label for="fullName">Full Name:</label>
+          <input
+            type="text"
+            name="fullName"
+            id="fullName"
+            required
+            list="commonNames"
+          />
+
+          <datalist id="commonNames">
+            <option value="Scrappy">Scrappy</option>
+            <option value="Meowth">Meowth</option>
+            <option value="Human">Human</option>
+          </datalist>
+          <!-- drop down menu -->
+        </div>
+
+        <select name="title" id="title">
+          <option value="Necromancer">Necromancer</option>
+          <option value="Jester">Jester</option>
+          <option value="Barbarian">Barbarian</option>
+          <option value="Janitor">Janitor</option>
+        </select>
+      </fieldset>
+
+      <div>
+        <input type="submit" value="E-sign" />
+      </div>
+    </form>
   </body>
 </html>
