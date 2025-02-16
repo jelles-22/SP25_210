@@ -10,4 +10,4 @@ This was actually a bit tricky! I had to google a couple things (how to make thi
 
 ### Live Link
 
-[Blog Page](https://jelles-22.github.io/{SP25_210/homework-2)
+[Blog Page](https://jelles-22.github.io/SP25_210/homework-2)
