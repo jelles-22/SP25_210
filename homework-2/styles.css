@@ -57,7 +57,9 @@ div h1 {
   font-size: 20px;
   border-color: black;
 }
-
+section {
+  padding-top: 50px;
+}
 .name {
   display: flex;
   align-items: center;
