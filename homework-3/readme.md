@@ -1,4 +1,4 @@
-https://jelles-22.github.io/sp25_210/homework-3/index.html
+https://jelles-22.github.io/SP25_210/homework-3/index.html
 
 Key Take Aways:
 Arrays are useful whenever there is a need to store and manage multiple related values
