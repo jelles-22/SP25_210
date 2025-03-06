@@ -45,3 +45,7 @@ body {
 body > ul {
   margin-left: 16px;
 }
+
+main {
+  padding: 10px;
+}
