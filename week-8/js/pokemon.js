@@ -69,10 +69,10 @@ console.log(e.currentTarget);
 const pokemonName = e.currentTarget.dataset.pokemonName;
 const pokemonImg = e.currentTarget.dataset.pokemonImage;
 
-const confirmChoice = confirm("You chose" + pokemon.name);
+const confirmChoice = confirm("You chose" + pokemonName);
 
 if (confirmChoice) {
-    journeyRef.innerHTML += "You chose" + pokemoname + " as your starter pokemon.";
+    journeyRef.innerHTML += "You chose " + pokemonName + " as your starter pokemon.";
 
     myPokemon = { name: pokemonName, img: pokemonImg };
 }
