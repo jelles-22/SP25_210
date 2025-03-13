@@ -130,3 +130,7 @@ button a {
   text-decoration: none;
   color: black;
 }
+
+.name {
+  text-emphasis: bold;
+}
