@@ -1,0 +1,20 @@
+## Field Trip Project
+
+### Project Summary
+
+The project is going to follow their display of Radial Stitch, showcasing stitched bead work. The project is going to be surrounding the traditional design of Native American bead work. Being on the website will allow the user to create a printable, traditional design that they can color or apply to cross stitching.
+
+### Core Webpages
+
+Naturally, there will be a index page, how-to page, creation page, history page, about us page, and contact page.
+
+### Design Choices
+
+I'll follow the Eiteljorg website for design, which will make everything more cohesive. The whole webapage will follow the primary hues (Yellow, Red, and Blue) and some secondary (Orange, Purple, and Green).
+
+The background color for the pages will be white, but the headers will alternate between the colors, to give it a "pop" factor. The nav bar will be in hamburger menu with a low, grey opacity. 
+
+
+### Describe your data structure with rationale.
+
+My database will be an image collection of historic bead designs (history page), to inspire the user, and will have a "Show your work" section where the user can upload their content and have others comments/like their images (creation page).

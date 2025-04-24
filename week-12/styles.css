@@ -36,3 +36,38 @@ nav a:hover {
   text-decoration-style: wavy;
   text-underline-offset: 3px;
 }
+
+.dream {
+  border: 2px solid black;
+  /* width: 200px; */
+  height: 200px;
+  text-align: center;
+}
+
+section#dream {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  text-align: center;
+  display: flex;
+
+  flex-direction: column;
+  padding: 20px;
+}
+
+.dream p {
+  margin-top: auto;
+}
+
+.dream .heart {
+  color: red;
+  font-size: 40px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.dream .edit {
+  font-size: 20px;
+  padding: 4px;
+}

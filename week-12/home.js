@@ -13,6 +13,7 @@ const dreamsCollection = collection(db,"hopesdreams");
 const dreamsRef = document.querySelector("#dreams");
 const dreamFormRef = document.querySelector("#new-dream");
 const dreamTextRef = document.querySelector("#dream-text");
+
 async function getDreams() {
     const dreamsDocs = await getDocs(dreamsCollection);
 
@@ -33,6 +34,10 @@ async function addNewDream(e) {
 
     const dreamTextValue = dreamTextRef.value;
 
+    if (dreamTextValue.trim() === "") {
+        alert("Please Enter A Valid Dream");
+    } else {
+
     const newDream = await addDoc(dreamsCollection, { text: dreamTextValue });
 
     console.log(newDream);
@@ -40,6 +45,7 @@ async function addNewDream(e) {
     getDreams();
 
     dreamFormRef.reset();
+    }
 }
 
 dreamFormRef.onsubmit = addNewDream;
